@@ -197,17 +197,20 @@ const sendVerifyOTP = async (req, res) => {
       to: email,
       subject: "Account Verification - OTP Inside",
       html: `
-    <div style="font-family: Arial, sans-serif; padding: 16px;">
-      <h2 style="color: #333;">Welcome to CodeDoodle!</h2>
-      <p>To verify your account, please use the OTP provided below:</p>
-      <div style="margin: 20px 0; padding: 12px; border: 2px solid red; display: inline-block; font-size: 24px; font-weight: bold; color: red;">
-        ${otp}
-      </div>
-      <p>Enter this OTP on the verification page to complete your registration.</p>
-      <p>If you did not request this, please ignore this email.</p>
-      <p style="margin-top: 20px;">Thanks,<br/>The CodeDoodle Team</p>
+  <div style="font-family: Arial, sans-serif; padding: 16px; background-color: #f4f8fb; color: #333;">
+    <h2 style="color: #2c3e50;">Welcome to IntelliCare!</h2>
+    <p>To verify your account, please enter the OTP provided below:</p>
+    
+    <div style="margin: 20px 0; padding: 12px 24px; border: 2px solid #0077cc; background-color: #e6f0fb; display: inline-block; font-size: 24px; font-weight: bold; color: #0077cc; border-radius: 6px;">
+      ${otp}
     </div>
-  `,
+
+    <p>Please enter this OTP on the verification page to complete your registration.</p>
+    <p>If you did not request this OTP, please ignore this email.</p>
+    
+    <p style="margin-top: 24px;">Thank you,<br/>The IntelliCare Team</p>
+  </div>
+`,
     };
 
     await transporter.sendMail(mailOptions);
