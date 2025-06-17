@@ -33,12 +33,12 @@ const register = async (req, res) => {
       expiresIn: "7d",
     });
 
-    res.cookie("token", token, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
-      maxAge: 7 * 24 * 60 * 60 * 1000,
-    });
+    res.cookie('token', token, {
+  httpOnly: true,
+  secure: true,         // ✅ Required on HTTPS
+  sameSite: 'None',     // ✅ Required for cross-site
+  maxAge: 24 * 60 * 60 * 1000 // optional
+});
 
     //sending welcome MAIL message to anshu
 
@@ -119,12 +119,12 @@ const login = async (req, res) => {
       expiresIn: "7d",
     });
 
-    res.cookie("token", token, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
-      maxAge: 7 * 24 * 60 * 60 * 1000,
-    });
+    res.cookie('token', token, {
+  httpOnly: true,
+  secure: true,         // ✅ Required on HTTPS
+  sameSite: 'None',     // ✅ Required for cross-site
+  maxAge: 24 * 60 * 60 * 1000 // optional
+});
 
     return res.send({
       status: 1,
@@ -143,8 +143,8 @@ const logout = async (req, res) => {
   try {
     res.clearCookie("token", {
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
+  secure: true,         // ✅ Required on HTTPS
+  sameSite: 'None',     // ✅ Required fo
     });
 
     return res.status(200).send({
