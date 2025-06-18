@@ -27,7 +27,7 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex items-center gap-4 mt-2 sm:mt-0">
-{/*             <FaGithub
+            <FaGithub
               className="text-slate-200 hover:text-white text-xl cursor-pointer"
               onClick={() =>
                 window.open(
@@ -36,7 +36,7 @@ const Footer = () => {
                   "noopener,noreferrer"
                 )
               }
-            /> */}
+            />
             <FaLinkedin
               className="text-slate-200 hover:text-white text-xl cursor-pointer"
               onClick={() =>
