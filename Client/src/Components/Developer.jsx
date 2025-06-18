@@ -10,7 +10,7 @@ const developers = [
     name: "Aditya Kumar",
     role: "Full-Stack Developer",
     image: aditya,
-    github: "https://github.com/aditya-kumar-patraan1",
+    // github: "https://github.com/aditya-kumar-patraan1",
     linkedin: "https://www.linkedin.com/in/aditya-kumar--?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     instagram: "https://instagram.com/adityakr_rajput",
     about: "1900+ rated (Knight) on LeetCode and a Full Stack Developer. Skilled in building scalable web applications and real-time systems.",
@@ -58,9 +58,9 @@ const Developer = ({isLightMode}) => {
             <p className="text-white text-sm">{dev.role}</p>
 
             <div className="flex space-x-4 mt-4 text-xl text-white">
-              <button onClick={() => window.open(dev.github, "_blank")}  type="button">
-                <FaGithub className={`${isLightMode?"hover:text-gray-800":"hover:text-white"}`} />
-              </button>
+{/*               <button onClick={() => window.open(dev.github, "_blank")}  type="button"> */}
+{/*                 <FaGithub className={`${isLightMode?"hover:text-gray-800":"hover:text-white"}`} /> */}
+{/*               </button> */}
               <button onClick={() => window.open(dev.linkedin, "_blank")}  type="button">
                 <FaLinkedin className="hover:text-blue-600" />
               </button>
