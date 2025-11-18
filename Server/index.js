@@ -13,7 +13,7 @@ const router8 = require("./Routers/appointmentRoutes");
 const Router9 = require("./Routers/DashboardRoutes");
 const Router10 = require("./Routers/uploadHealthRecordRoutes");
 const Router12 = require("./Routers/ContactRoutes");
-
+ 
 require("dotenv").config();
 app.use(cors({
     origin: process.env.FRONTEND_URL || "http://localhost:5173",
@@ -99,6 +99,6 @@ server.listen(process.env.PORT || 3000, () => {
     // console.log("Server is running...");
 });
 
-app.listen(PORT, () => {
-    // console.log(`Server is running on port ${PORT}`);
-})
+// app.listen(PORT, () => {
+//     // console.log(`Server is running on port ${PORT}`);
+// })
