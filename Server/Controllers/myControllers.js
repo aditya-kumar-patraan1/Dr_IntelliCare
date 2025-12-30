@@ -42,29 +42,29 @@ const register = async (req, res) => {
 
     //sending welcome MAIL message to anshu
 
-    const mailDetails = {
-      from: process.env.SENDER_EMAIL,
-      to: email,
-      subject: "Welcome to IntelliCare!",
-      html: `
-    <div style="font-family: Arial, sans-serif; padding: 20px;">
-  <h2 style="color: #2c3e50;">Hello,</h2>
-  <p><strong>${name}</strong> just signed in to <strong>IntelliCare</strong> — your intelligent healthcare companion that helps you:</p>
-  <ul style="margin: 16px 0; padding-left: 20px;">
-    <li>Chat with AI Health Assistants</li>
-    <li>Get real-time symptom analysis and disease suggestions</li>
-    <li>Find nearby clinics, hospitals, and specialists</li>
-    <li>Book appointments instantly with doctors</li>
-    <li>Join AI-powered video consultations</li>
-  </ul>
-  <p>We're here to support your health journey — smarter, faster, and more accessible.</p>
-  <p style="margin-top: 30px;">Stay Healthy!<br/><strong>– The IntelliCare Team</strong></p>
-</div>
+//     const mailDetails = {
+//       from: process.env.SENDER_EMAIL,
+//       to: email,
+//       subject: "Welcome to IntelliCare!",
+//       html: `
+//     <div style="font-family: Arial, sans-serif; padding: 20px;">
+//   <h2 style="color: #2c3e50;">Hello,</h2>
+//   <p><strong>${name}</strong> just signed in to <strong>IntelliCare</strong> — your intelligent healthcare companion that helps you:</p>
+//   <ul style="margin: 16px 0; padding-left: 20px;">
+//     <li>Chat with AI Health Assistants</li>
+//     <li>Get real-time symptom analysis and disease suggestions</li>
+//     <li>Find nearby clinics, hospitals, and specialists</li>
+//     <li>Book appointments instantly with doctors</li>
+//     <li>Join AI-powered video consultations</li>
+//   </ul>
+//   <p>We're here to support your health journey — smarter, faster, and more accessible.</p>
+//   <p style="margin-top: 30px;">Stay Healthy!<br/><strong>– The IntelliCare Team</strong></p>
+// </div>
 
-  `,
-    };
+  // `,
+  //   };
 
-    await transporter.sendMail(mailDetails);
+    // await transporter.sendMail(mailDetails);
 
     return res.send({
       status: 1,
