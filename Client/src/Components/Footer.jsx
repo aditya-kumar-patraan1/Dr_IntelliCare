@@ -60,7 +60,7 @@ const Footer = () => {
           </p>
         </div>
         <p className="text-white text-center text-xs myhighlights">
-          © 2025 Dr. IntelliCare, Inc. All rights reserved.
+          © 2026 Dr. IntelliCare, Inc. All rights reserved.
         </p>
       </div>
     </div>
