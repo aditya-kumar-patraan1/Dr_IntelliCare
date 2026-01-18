@@ -1,20 +1,46 @@
-# 🚀 CodeDoodle: Real-Time Code Collaboration & Communication Platform
+# 🏥 IntelliCare – Smart Healthcare Web Platform
 
-A full-stack collaborative platform that empowers developers, students, and teams to code, review, and communicate seamlessly in real time.  
-CodeDoodle integrates **real-time code sharing**, **AI-powered code reviews**, **chat assistance**, and **video meetings**, making it an all-in-one solution for learning, mentoring, and teamwork.
+**IntelliCare** is a full-stack healthcare web application built using the **MERN stack** that enables secure medical record management, intelligent hospital discovery, AI-powered health assistance, and real-time doctor–patient communication.
+
+The platform focuses on **security, real-time interaction, and accessibility**, making healthcare smarter and more connected.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- 🔑 **User Authentication & Email Verification** for secure access  
-- 👨‍💻 **Real-Time Code Collaboration** using **Socket.IO** (sync, save, download)  
-- 🧠 **AI-Powered Code Reviewer** with instant feedback on errors and optimizations  
-- 🎥 **Video Meetings** with **WebRTC** for pair programming and discussions  
-- 💬 **Smart Chatbox** with text communication + AI-assisted query resolution  
-- 📚 **Interactive Guides & Demo Video** to help beginners understand the workflow  
-- 🎨 **Modern UI/UX Enhancements** with GSAP + Framer Motion animations  
-- 🌗 **Dark/Light Mode Toggle** for a smooth coding experience  
+- 🔐 **Secure Authentication & Authorization**
+  - JWT-based authentication
+  - Password hashing using **Bcrypt**
+  - Email verification & alerts via **Node Mailer**
+
+- 🗂️ **Medical Records Management**
+  - Secure storage of patient medical files
+  - File uploads handled via **Cloudinary**
+  - Access-controlled data visibility
+
+- 📍 **IntelliLocate – Nearby Hospital & Clinic Finder**
+  - Uses **Overpass API** to fetch real-world healthcare locations
+  - Integrated with **Google Maps** for accurate navigation
+  - Finds hospitals, clinics, and medical facilities near the user
+
+- 🤖 **IntelliAid – 24×7 AI Doctor Assistant**
+  - Analyzes health-related text queries
+  - Supports image-based health analysis
+  - Provides instant preliminary health guidance
+
+- 🎥 **Real-Time Doctor–Patient Communication**
+  - Video calls powered by **WebRTC**
+  - Live chat using **Socket.IO**
+  - Low-latency, peer-to-peer communication
+
+- 📧 **Email Notifications & Alerts**
+  - Account verification emails
+  - Important health and appointment notifications
+
+- 🎨 **Modern & Responsive UI**
+  - Built with **Tailwind CSS**
+  - Fully responsive across mobile, tablet, and desktop devices
+  - Clean, minimal healthcare-focused design
 
 ---
 
@@ -86,6 +112,7 @@ npm run dev
 - React.js
 - Node.js
 - Express.js
+- Mongo.db
 - Google Generative AI (Gemini)
 
 ## Contributing
@@ -96,5 +123,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 - Google Generative AI for the Gemini API
-- Flutter team for the amazing framework
-- Made with ❤️ by Aditya Kumar Rajput and Harsh Gupta
+- Made with ❤️ by Aditya Kumar Rajput
