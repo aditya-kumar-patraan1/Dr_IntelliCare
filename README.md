@@ -68,7 +68,7 @@ The platform focuses on **security, real-time interaction, and accessibility**, 
 <img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/meeting_adi_harsh_iao6xv.png" alt="Intellicare Doctor-Patient Meeting using WebRTC" />
 
 - Dashboard User
-<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/workspace_g526bc.png"  alt="workspace" />
+<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/workspace_g526bc.png"  alt="dashboard" />
 
 ---
 
