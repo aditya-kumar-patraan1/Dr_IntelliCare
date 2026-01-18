@@ -46,7 +46,7 @@ The platform focuses on **security, real-time interaction, and accessibility**, 
 
 ## Live Demo
 
-🚀 You can try my hosted project here: [[CodeDoodle - Live Demo](https://code-doodle-editor.vercel.app/)](#)  
+🚀 You can try my hosted project here: https://intelli-care.vercel.app/  
 
 ---
 
