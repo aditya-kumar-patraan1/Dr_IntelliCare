@@ -53,13 +53,13 @@ The platform focuses on **security, real-time interaction, and accessibility**, 
 ## Demo Images
 
 - Home Page
-<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/pic1_rcpyge.png" alt="Intellicare Home page" />
+<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1768824395/homePage_v757b1.png" alt="Intellicare Home page" />
 
-- Real-time Code Editor Panel
-<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/camera_and_code_fca3gp.png" alt="Real time code editor panel" />
+- Near By hospital
+<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1768824396/NearbyHospital_gachir.png" alt="Nearby hospital feature" />
 
-- Code Reviewer
-<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/CodeReviewer_nrqlxq.png"  alt="Intellicare Disease Predictor" />
+- AI disease Predictor - IntelliAid
+<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1768824395/diseaseAnalysis_dy3ja9.png" alt="Intellicare Disease Predictor" />
 
 - Codedoodle ChatBot
 <img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/chatbot_sumch1.png" alt="Intellicare Nearby Hospital" />
