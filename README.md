@@ -61,14 +61,14 @@ The platform focuses on **security, real-time interaction, and accessibility**, 
 - AI disease Predictor - IntelliAid
 <img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1768824395/diseaseAnalysis_dy3ja9.png" alt="Intellicare Disease Predictor" />
 
-- Codedoodle ChatBot
-<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/chatbot_sumch1.png" alt="Intellicare Nearby Hospital" />
+- Patient Dashboard
+<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1768824395/DashboardProfile_vujg42.png" alt="Patient Dashboard" />
 
-- Video Meeting using WebRTC
-<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/meeting_adi_harsh_iao6xv.png" alt="Intellicare Doctor-Patient Meeting using WebRTC" />
+- Uploading Health Records
+<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1768824395/healthRecord_ajzshw.png" alt="Uploading Health Records" />
 
-- Dashboard User
-<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1767686923/workspace_g526bc.png"  alt="dashboard" />
+- Appointment Table in Dashboard
+<img src="https://res.cloudinary.com/dlkuodrjm/image/upload/v1768824395/appointmentTable_mqnhfi.png"  alt="appointment table in dashboard" />
 
 ---
 
