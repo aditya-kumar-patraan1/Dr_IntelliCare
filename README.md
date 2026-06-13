@@ -47,7 +47,9 @@ The platform focuses on **security, real-time interaction, and accessibility**, 
 ## Live Demo
 
 🚀 You can try my hosted project here: [[Intellicare - Live Demo](https://intelli-care.vercel.app/)]
-[[Intellicare - Backend Hosted](https://intelli-care.vercel.app/)]
+🚀 You can check my hosted backend here:
+[[Intellicare - Backend Hosted]
+(https://intelli-care.vercel.app/)]
 ---
 
 ## Demo Images
