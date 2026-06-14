@@ -19,6 +19,7 @@ The platform focuses on **security, real-time interaction, and accessibility**, 
   - Access-controlled data visibility
 
 - 📍 **IntelliLocate – Nearby Hospital & Clinic Finder**
+- 
   - Uses **Overpass API** to fetch real-world healthcare locations
   - Integrated with **Google Maps** for accurate navigation
   - Finds hospitals, clinics, and medical facilities near the user
